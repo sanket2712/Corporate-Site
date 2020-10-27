@@ -100,13 +100,13 @@
   width: 15px;
   height: 15px;
   margin: 7px;
-  /* transition: 0.3s ease-out; */
+  transition: 0.3s ease-out;
 }
 .glider-dot:hover,
 .glider-dot:focus,
 .glider-dot.active {
   background: #a89cc8;
-  /* transform: scale(1.5); */
+  transform: scale(1.5);
 }
 @media(max-width: 36em){
   .glider::-webkit-scrollbar {

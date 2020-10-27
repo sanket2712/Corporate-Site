@@ -186,3 +186,52 @@ nav ul a:hover {
     display: flex;
     justify-content: space-between;
 }
+.dark-section{
+	background-color:#d7d7d7 ;
+}
+/* technologies section */
+
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex_col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.tech_image{
+	height: 200px;
+	width: 200px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+.technologies{
+	padding: 20px 5%;
+}
+.technologies .single{
+	/* margin: 0 25px; */
+}
+.tech_name{
+	padding-top: 17px;
+	color: black;
+		font-size: 18px;
+
+}
+.section_header{
+	width: 50%;
+	padding:100px 60px 50px ;
+}
+.section_header *{
+	padding: 10px 0;
+}
+.section_header p{
+color: #444;
+}
+.section_header h1{
+	font-size: 25px;
+		
+}
+	
