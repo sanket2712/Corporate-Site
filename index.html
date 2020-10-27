@@ -1,57 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
 
-    <title>Document</title>
-</head>
-<body>
-    <div class="top__section">
-        <nav>
-            <div class="navbar">
-                <div class="logo_section">
-                    <h3>Innovects</h3>
-                </div>
-                <div class="menu_section">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Case Studies</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#" class="navbar__login">Log in</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <section id="hero">
-            <div class="hero__main_wrapper">
-                <div class="hero__main_section">
-                <p>We've made an impact on </p>
-                <h1>A Hundreds of Products</h1>
-                <p>through <b>Bussiness Management</b> </p>
-            </div>
-            <div class="hero__bottom_section">
-                <p>Seven years of crafting sweet experiences with Research,Design & Developement</p>
-            </div>
-        </div>
-    </section>
-</div>
-<section id="case_studies">
-    <div class="case_study">
-        <h1>first</h1>
-    </div>
-    <div class="case_study">
-        <h1>second </h1>
-    </div>
-    <div class="case_study">
-        <h1>Third</h1>
-    </div>
-</section>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</body>
+		<title>Document</title>
+		<link rel="stylesheet" href="./glider_assets/glider.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="top__section">
+			<nav>
+				<div class="navbar">
+					<div class="logo_section">
+						<h3>Innovects</h3>
+					</div>
+					<div class="menu_section">
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Case Studies</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li>
+								<a href="#" class="navbar__login">Log in</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<section id="hero">
+				<div class="hero__main_wrapper">
+					<div class="hero__main_section">
+						<p>We've made an impact on</p>
+						<h1>A Hundreds of Products</h1>
+						<p>through <b>Bussiness Management</b></p>
+					</div>
+					<div class="hero__bottom_section">
+						<p>
+							Seven years of crafting sweet experiences with
+							Research,Design & Developement
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section id="case_studies">
+			<div class="glider-contain">
+				<div class="case_studies_header">
+					<div class="header_left">
+						<h1>Case Studies</h1>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Neque animi sint fugit itaque esse quibusdam!q
+						</p>
+					</div>
+					<div id="dots"></div>
+				</div>
+				<div class="glider">
+					<div class="cases_studies_case">
+						<div class="case_left">
+							<div class="case_image"></div>
+						</div>
+						<div class="case_right">
+							<p class="case_category">Lorem, ipsum dolor.</p>
+							<h1 class="case_title">Lorem ipsum dolor sit.</h1>
+							<p class="case_info">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Quibusdam enim illo sunt quo
+								vel expedita.
+							</p>
+							<button class="case_readMore">Read More</button>
+						</div>
+					</div>
+					<div class="cases_studies_case">
+						<div class="case_left">
+							<div class="case_image"></div>
+						</div>
+						<div class="case_right">
+							<p class="case_category">Lorem, ipsum dolor.</p>
+							<h1 class="case_title">Lorem ipsum dolor sit.</h1>
+							<p class="case_info">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Quibusdam enim illo sunt quo
+								vel expedita.
+							</p>
+							<button class="case_readMore">Read More</button>
+						</div>
+					</div>
+					<div class="cases_studies_case">
+						<div class="case_left">
+							<div class="case_image"></div>
+						</div>
+						<div class="case_right">
+							<p class="case_category">Lorem, ipsum dolor.</p>
+							<h1 class="case_title">Lorem ipsum dolor sit.</h1>
+							<p class="case_info">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Quibusdam enim illo sunt quo
+								vel expedita.
+							</p>
+							<button class="case_readMore">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="arrow-container">
+					<button class="glider-prev">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button class="glider-next">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+			</div>
+		</section>
+		<script src="./glider_assets/glider.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>
